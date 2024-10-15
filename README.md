@@ -17,10 +17,6 @@ Este proyecto es una prueba técnica donde se aplica un CRUD en Laravel v. 10.
   `php artisan key:generate`
 - CREA UNA BASE DE DATOS CON EL NOMBRE: tareas
 
-- CREAR LA LLAVE DEL PROYECTO.
-
-  `php artisan key:generate`
-
 - CONFIGURAR LA CONEXIÓN A LA BASE DE DATOS
 
 `DB_CONNECTION=mysql`
@@ -30,16 +26,26 @@ Este proyecto es una prueba técnica donde se aplica un CRUD en Laravel v. 10.
 `DB_USERNAME=root`
 `DB_PASSWORD=`
 
+- EJECUTA EL SIGUIENTE COMANDO PARA CREAR LAS TABLAS EN LA BASE DE DATOS
+  `php artisan migrate`
+
+- LUEGO PARA ALMACENAR REGISTROS
+`php artisan db:seed`
 
   - INSTALACIÓN REMOTA
 - Si estas trabajando con hostinguer es necesario usar Composer2.
 
   `composer2 update`
 
-  - EJECUCIÓN DEL PROYECTO
-  Inicia sesión con el siguiente usuario : logicainformatica18@gmail.com  password: 12345678
-![Screenshot_1](images/README/Screenshot_2.png)
-
+ ### **EJECUCIÓN DEL PROYECTO**
+ - Inicia sesión con el siguiente usuario : logicainformatica18@gmail.com  password: 12345678
+![Screenshot_2](images/README/Screenshot_2.png)
+- Da un clic en el tipo de usuario **ADMINISTRADOR**
+![Screenshot_3](images/README/Screenshot_3.png)
+- Una vez en el tablero dar clic en **USUARIOS**
+![Screenshot_4](images/README/Screenshot_4.png)
+- Puedes dar un clic en:  **Agregar** para crear usuario, en el boton rojo para eliminar, en el botón verde para empezar a editar.
+![Screenshot_5](images/README/Screenshot_5.png)
 
 ### **Contribución**
 `Puedes realizar tus aportes. `
