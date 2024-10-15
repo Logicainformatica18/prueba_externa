@@ -32,10 +32,7 @@ Este proyecto es una prueba técnica donde se aplica un CRUD en Laravel v. 10.
 - LUEGO PARA ALMACENAR REGISTROS
 `php artisan db:seed`
 
-  - INSTALACIÓN REMOTA
-- Si estas trabajando con hostinguer es necesario usar Composer2.
 
-  `composer2 update`
 
  ### **EJECUCIÓN DEL PROYECTO**
  - Inicia sesión con el siguiente usuario : logicainformatica18@gmail.com  password: 12345678
@@ -47,6 +44,10 @@ Este proyecto es una prueba técnica donde se aplica un CRUD en Laravel v. 10.
 - Puedes dar un clic en:  **Agregar** para crear usuario, en el boton rojo para eliminar, en el botón verde para empezar a editar.
 ![Screenshot_5](images/README/Screenshot_5.png)
 
+ ### **INSTALACIÓN REMOTA**
+- Si estas trabajando con hostinguer es necesario usar Composer2.
+
+  `composer2 update`
 ### **Contribución**
 `Puedes realizar tus aportes. `
 ### ** - **
